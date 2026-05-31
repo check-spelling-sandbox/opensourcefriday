@@ -111,7 +111,7 @@ jobs:
           use_sarif: 1
           # check-images: 1
           extra_dictionary_limit: 20
-          allow-hunspell: false
+          allow-hunspell: true
           load-config-from: |
             {
               "pr-base-keys": [
@@ -125,6 +125,12 @@ jobs:
               ],
               "": []
             }
+          ignore-pattern: "[^'a-záéíóúñçüA-ZÁÉÍÓÚÑÇÜ]"
+          upper-pattern: '[A-ZÁÉÍÓÚÑÇÜ]'
+          lower-pattern: '[a-záéíóúñçü]'
+          not-lower-pattern: '[^a-záéíóúñçü]'
+          not-upper-or-lower-pattern: '[^A-ZÁÉÍÓÚÑÇÜa-záéíóúñçü]'
+          punctuation-pattern: "'"
 
   comment-push:
     name: Report (Push)
