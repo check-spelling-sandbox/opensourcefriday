@@ -1,0 +1,2 @@
+^_articles/es/
+^_data/locales/es\.yml$
