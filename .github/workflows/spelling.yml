@@ -125,11 +125,11 @@ jobs:
               ],
               "": []
             }
-          ignore-pattern: "[^'a-záéíóúñçüA-ZÁÉÍÓÚÑÇÜ]"
-          upper-pattern: '[A-ZÁÉÍÓÚÑÇÜ]'
-          lower-pattern: '[a-záéíóúñçü]'
-          not-lower-pattern: '[^a-záéíóúñçü]'
-          not-upper-or-lower-pattern: '[^A-ZÁÉÍÓÚÑÇÜa-záéíóúñçü]'
+          ignore-pattern: "[^'a-zàâæçœéèêëîïôùûüÿA-ZÀÂÆÇŒÉÈÊËÎÏÔÙÛÜŸ]"
+          upper-pattern: '[A-ZÀÂÆÇŒÉÈÊËÎÏÔÙÛÜŸ]'
+          lower-pattern: '[a-zàâæçœéèêëîïôùûüÿ]'
+          not-lower-pattern: '[^a-zàâæçœéèêëîïôùûüÿ]'
+          not-upper-or-lower-pattern: '[^A-ZÀÂÆÇŒÉÈÊËÎÏÔÙÛÜŸa-zàâæçœéèêëîïôùûüÿ]'
           punctuation-pattern: "'"
 
   comment-push:

@@ -2,6 +2,9 @@
 
 name="b_[_a-z\d]+"
 
+# French middle dot (·) gender suffixes
+(?<!\s)·(?:euse|neuses|s|velles)\b
+
 # Automatically suggested patterns
 
 # hit-count: 67 file-count: 26

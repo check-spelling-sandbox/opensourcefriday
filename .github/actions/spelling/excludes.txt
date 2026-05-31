@@ -85,7 +85,6 @@
 ^\.github/actions/spelling/
 ^\Q.github/workflows/spelling.yml\E$
 ^\Qnode_modules/.package-lock.json\E$
-^_data/locales/(?!e[ns])..\.yml$
 ^node_modules/
 ignore$
 /(?!e[ns]|js)../
