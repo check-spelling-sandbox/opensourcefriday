@@ -14,7 +14,7 @@
     "cspell1:npm/npm.txt",
     "cspell1:ruby/ruby.txt",
     "cspell1:python/python/python-lib.txt",
-    "cspell:fr_FR/src/hunspell-french-dictionaries-v7.0/fr-reforme1990.dic",
+    "cspell:fr_FR/src/hunspell-french-dictionaries-v7.0/fr-classique.dic",
     ""
   ],
   "check_extra_dictionaries": [
