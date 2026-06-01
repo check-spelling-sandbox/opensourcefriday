@@ -7,14 +7,6 @@
     "census": "https://raw.githubusercontent.com/check-spelling-sandbox/census/dictionaries-d90e686f89dd241ad61d30f26619e54d73e73c6e/dictionaries/"
   },
   "extra_dictionaries": [
-    "cspell1:software-terms/softwareTerms.txt",
-    "census:census-5.txt",
-    "cspell1:css/css.txt",
-    "cspell1:html/html.txt",
-    "cspell1:fullstack/fullstack.txt",
-    "cspell1:npm/npm.txt",
-    "cspell1:ruby/ruby.txt",
-    "cspell1:python/python/python-lib.txt",
     "cspell:ar/src/ayaspell/ar.dic",
     ""
   ],
