@@ -1,2 +1,2 @@
-^_articles/uk/
-^_data/locales/uk\.yml$
+^_articles/ar/
+^_data/locales/ar\.yml$
