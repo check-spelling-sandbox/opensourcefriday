@@ -1,2 +1,2 @@
-^_articles/ar/
-^_data/locales/ar\.yml$
+^_articles/fa/
+^_data/locales/fa\.yml$
