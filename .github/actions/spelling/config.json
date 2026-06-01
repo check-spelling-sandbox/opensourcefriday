@@ -14,7 +14,7 @@
     "cspell1:npm/npm.txt",
     "cspell1:ruby/ruby.txt",
     "cspell1:python/python/python-lib.txt",
-    "cspell:de_DE/src/German_de_DE.dic",
+    "cspell:ru_RU/src/Russian.dic",
     ""
   ],
   "check_extra_dictionaries": [

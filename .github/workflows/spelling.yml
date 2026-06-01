@@ -125,11 +125,11 @@ jobs:
               ],
               "": []
             }
-          ignore-pattern: "[^'a-zßäöüA-ZẞÄÖÜ]"
-          upper-pattern: '[A-ZẞÄÖÜ]'
-          lower-pattern: '[a-zßäöü]'
-          not-lower-pattern: '[^a-zßäöü]'
-          not-upper-or-lower-pattern: '[^A-ZẞÄÖÜa-zßäöü]'
+          ignore-pattern: "[^абвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ]"
+          upper-pattern: '[АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ]'
+          lower-pattern: '[абвгдеёжзийклмнопрстуфхцчшщъыьэюя]'
+          not-lower-pattern: '[^абвгдеёжзийклмнопрстуфхцчшщъыьэюя]'
+          not-upper-or-lower-pattern: '[^абвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ]'
           punctuation-pattern: "'"
 
   comment-push:
