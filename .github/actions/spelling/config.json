@@ -15,7 +15,7 @@
     "cspell1:npm/npm.txt",
     "cspell1:ruby/ruby.txt",
     "cspell1:python/python/python-lib.txt",
-    "cspell1:bg_BG/src/bg_BG.dic",
+    "cspell:uk_UA/src/hunspell/index.dic",
     ""
   ],
   "check_extra_dictionaries": [
