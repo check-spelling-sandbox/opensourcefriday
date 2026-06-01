@@ -3,6 +3,7 @@
     "asm": "https://raw.githubusercontent.com/check-spelling/assembly-dictionaries/20231110/",
     "cspell": "https://raw.githubusercontent.com/check-spelling/cspell-dicts/v20230509/dictionaries/",
     "cspell1": "https://raw.githubusercontent.com/check-spelling/cspell-dicts/v20241114/dictionaries/",
+    "cspell0": "https://raw.githubusercontent.com/check-spelling/cspell-dicts/v20230502/dictionaries/",
     "census": "https://raw.githubusercontent.com/check-spelling-sandbox/census/dictionaries-d90e686f89dd241ad61d30f26619e54d73e73c6e/dictionaries/"
   },
   "extra_dictionaries": [
@@ -14,7 +15,7 @@
     "cspell1:npm/npm.txt",
     "cspell1:ruby/ruby.txt",
     "cspell1:python/python/python-lib.txt",
-    "cspell:ru_RU/src/Russian.dic",
+    "cspell1:bg_BG/src/bg_BG.dic",
     ""
   ],
   "check_extra_dictionaries": [
