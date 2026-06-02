@@ -1,15 +1,14 @@
 # See https://github.com/check-spelling/check-spelling/wiki/Configuration-Examples:-patterns
 
 name="b_[_a-z\d]+"
-
-# French middle dot (·) gender suffixes
-(?<!\s)·(?:euse|neuses|s|velles)\b
+^\s+[_\w]+:
+href=(['"]).+?\g{-1}
 
 # Automatically suggested patterns
 
 # hit-count: 67 file-count: 26
 # https/http/file urls
-(?:\b(?:https?|ftp|file)://)[-A-Za-z0-9+&@#/*%?=~_|!:,.;\\]+[-A-Za-z0-9+&@#/*%=~_|]
+#(?:\b(?:https?|ftp|file)://)[-A-Za-z0-9+&@#/*%?=~_|!:,.;\\]+[-A-Za-z0-9+&@#/*%=~_|]
 
 # hit-count: 21 file-count: 3
 # hex digits including css/html color classes

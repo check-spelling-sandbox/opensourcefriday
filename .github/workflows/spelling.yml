@@ -125,11 +125,11 @@ jobs:
               ],
               "": []
             }
-          ignore-pattern: "[^'a-zàéèíìîóòúùA-Z]"
-          upper-pattern: '[A-Z]'
-          lower-pattern: '[a-zàéèíìîóòúù]'
-          not-lower-pattern: '[^a-zàéèíìîóòúù]'
-          not-upper-or-lower-pattern: '[^A-Za-zàéèíìîóòúù]'
+          ignore-pattern: "[^'a-ząćęłńóśźżA-ZĄĆĘŁŃÓŚŹŻ]"
+          upper-pattern: '[A-ZĄĆĘŁŃÓŚŹŻ]'
+          lower-pattern: '[a-ząćęłńóśźż]'
+          not-lower-pattern: '[^a-ząćęłńóśźż]'
+          not-upper-or-lower-pattern: '[^A-ZĄĆĘŁŃÓŚŹŻa-ząćęłńóśźż]'
           punctuation-pattern: "'"
 
   comment-push:
