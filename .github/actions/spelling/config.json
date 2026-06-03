@@ -7,7 +7,7 @@
     "census": "https://raw.githubusercontent.com/check-spelling-sandbox/census/dictionaries-d90e686f89dd241ad61d30f26619e54d73e73c6e/dictionaries/"
   },
   "extra_dictionaries": [
-    "cspell:pl_PL/pl_pl.dic",
+    "cspell:tr_TR/Turkish.dic",
     ""
   ],
   "check_extra_dictionaries": [
